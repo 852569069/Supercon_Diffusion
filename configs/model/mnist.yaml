@@ -1,0 +1,24 @@
+_target_: src.models.SD_module.SD_DDPM_LitModule
+
+optimizer:
+  _target_: torch.optim.Adam
+  _partial_: true
+  lr: 0.001
+  weight_decay: 0.0
+
+scheduler:
+  _target_: torch.optim.lr_scheduler.ReduceLROnPlateau
+  _partial_: true
+  mode: min
+  factor: 0.1
+  patience: 10
+
+net:
+  _target_: src.models.components.contextnet.ContextUnet
+  in_channels: 3 
+  n_feat: 256
+
+beta1: 1e-4
+beta2: 0.02
+n_T: 400
+drop_prob: 0.1

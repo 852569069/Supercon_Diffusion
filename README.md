@@ -1,5 +1,3 @@
-<div align="center">
-
 # Supercon-Diffusion
 
 [![python](https://img.shields.io/badge/-Python_3.8_%7C_3.9_%7C_3.10-blue?logo=python&logoColor=white)](https://github.com/pre-commit/pre-commit)
@@ -9,7 +7,7 @@
 
 ## Description
 
-This project constitutes a code implementation derived from the Supercon-Diffusion model. Supercon-Diffusion is proficient in generating the efficacy of doped superconductors.
+This project is a code implementation of the Supercon-Diffusion model. Supercon-Diffusion is proficient in generating the efficacy of doped superconductors.
 
 ## Installation
 
