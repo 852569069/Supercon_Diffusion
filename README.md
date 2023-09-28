@@ -45,6 +45,8 @@ conda activate myenv
 
 ## How to run
 
+Change `root_dir:{path}` in `configs/paths/default.yaml` to the project directory.
+
 Train model with default configuration
 
 ```bash
@@ -53,12 +55,11 @@ python train-sd.py trainer=cpu
 
 # train on GPU
 python train-sd.py trainer=gpu
-```
 
-Train model with chosen experiment configuration from [configs/experiment/](configs/experiment/)
+# train on Mac
+python train-sd.py trainer=mps
 
-```bash
-python train-sd.py experiment=experiment_name.yaml
+
 ```
 
 You can override any parameter from command line like this

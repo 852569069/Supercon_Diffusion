@@ -6,7 +6,7 @@ min_epochs: 1000 # prevents early stopping
 max_epochs: 1000
 
 accelerator: auto
-devices: 10
+devices: 1
 
 # mixed precision for extra speed-up
 # precision: 16
