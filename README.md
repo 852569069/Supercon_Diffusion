@@ -7,7 +7,7 @@
 
 ## Description
 
-This project is a code implementation of the Supercon-Diffusion model. Supercon-Diffusion is proficient in generating the efficacy of doped superconductors.
+This project is a code implementation of the Supercon-Diffusion model in the [article](https://onlinelibrary.wiley.com/doi/10.1002/inf2.12519). Supercon-Diffusion is proficient in generating the efficacy of doped superconductors.
 
 ## Installation
 
